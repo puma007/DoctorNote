@@ -1,0 +1,18 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+	<style name="my_theme" parent="android:Theme.Holo.Light">
+        <item name="android:actionMenuTextColor">#FFFFFF</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_up</item>
+        <item name="android:actionBarStyle">@style/my_actionbar_style</item>
+    </style>
+ 
+    <style name="my_actionbar_style" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">#159CEB</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:titleTextStyle">@style/MyTheme.ActionBar.TitleTextStyle</item> 
+    </style>
+   	
+  
+    <style name="MyTheme.ActionBar.TitleTextStyle" parent="@android:style/TextAppearance">
+    	<item name="android:textColor">#FFFFFF</item>
+ 	</style>
+</resources>
